@@ -4,7 +4,7 @@ hackernamegen:
   command: /deploy/start.sh
   environment:
     PORT: "8080"
-  expose:
-    - "8080"
   ports:
     - "80:8080"
+  hostname: hackernamegen
+  domainname: test.com
