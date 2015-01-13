@@ -1,7 +1,7 @@
 hackernamegen:
   build: .
   working_dir: /deploy/hackernamegen
-  command: python -c "import os; os.chdir('/deploy/hackernamegen'); import main.py"
+  command: ls -l
   expose:
     - "80"
   ports:
