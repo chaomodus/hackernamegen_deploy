@@ -2,6 +2,8 @@ hackernamegen:
   build: .
   working_dir: /deploy/hackernamegen/
   command: /deploy/start.sh
+  environment:
+    PORT: "8080"
   expose:
     - "8080"
   ports:
