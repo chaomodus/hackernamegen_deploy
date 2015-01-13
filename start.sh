@@ -1,5 +1,5 @@
 #!/bin/sh
 
-cd hackernamegen
+cd /deploy/hackernamegen
 python main.py
 
