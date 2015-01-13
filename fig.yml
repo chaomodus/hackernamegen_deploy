@@ -1,0 +1,6 @@
+hackernamegen:
+  build: .
+  working_dir: /deploy/hackernamegen
+  command: python main.py
+  ports:
+      - "8080:8080"
