@@ -2,5 +2,7 @@ hackernamegen:
   build: .
   working_dir: /deploy/hackernamegen
   command: python main.py
+  expose:
+    - "80"
   ports:
-      - "8080:8080"
+    - "8080:80"
