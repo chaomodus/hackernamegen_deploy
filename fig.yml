@@ -1,7 +1,7 @@
 hackernamegen:
   build: .
   working_dir: /deploy/hackernamegen/
-  command: ls -l
+  command: start.sh
   expose:
     - "80"
   ports:
