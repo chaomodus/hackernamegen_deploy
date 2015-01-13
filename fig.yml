@@ -1,6 +1,6 @@
 hackernamegen:
   build: .
-  working_dir: /deploy/hackernamegen
+  working_dir: /deploy/hackernamegen/
   command: ls -l
   expose:
     - "80"
