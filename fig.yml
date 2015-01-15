@@ -3,8 +3,8 @@ hackernamegen:
   working_dir: /deploy/hackernamegen/
   command: /deploy/start.sh
   environment:
-    PORT: "8080"
+    PORT: "80"
   ports:
-    - "80:8080"
+    - "80:80"
   hostname: hackernamegen
   domainname: test.com
